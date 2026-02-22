@@ -21,8 +21,14 @@ export default function Navigation() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
-            <Link href="/" className="text-xl font-title font-bold text-bubblegum hover:text-bubblegum-light transition-all duration-300 hover:drop-shadow-[0_0_12px_rgba(241,111,189,0.6)] tracking-wider">
-              BOW DATA FEST 2026
+            <Link href="/" className="flex items-center gap-2 group">
+              <div className="bg-white/90 rounded-lg px-2 py-1.5 flex items-center justify-center group-hover:bg-white transition-colors duration-300">
+                <img
+                  src="/bow-asa.png"
+                  alt="BOW DATA FEST 2026"
+                  className="h-8 w-auto object-contain"
+                />
+              </div>
             </Link>
           </div>
 

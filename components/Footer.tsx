@@ -13,53 +13,26 @@ export default function Footer() {
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 relative z-10">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
-          {/* Column 1 - Balanced height */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
+          {/* Column 1 */}
           <div className="flex flex-col h-full">
             <h3 className="text-lg font-title font-semibold mb-4 text-bubblegum h-7 flex items-center">BOW ASA DataFest 2026</h3>
-            <p className="text-white/70 text-sm font-sans leading-relaxed flex-grow">
+            <p className="text-white/80 text-base font-sans leading-loose tracking-wide flex-grow">
               An intensive, weekend-long data analysis competition for undergraduate students from Babson, Olin, and Wellesley.
             </p>
           </div>
 
-          {/* Column 2 - Balanced height with spacing */}
-          <div className="flex flex-col h-full items-center md:items-start">
-            <h3 className="text-lg font-title font-semibold mb-4 text-indigo h-7 flex items-center w-full justify-center md:justify-start">Quick Links</h3>
-            <ul className="space-y-3 text-sm flex-grow flex flex-col justify-center md:justify-start w-full">
-              <li className="text-center md:text-left">
-                <a href="/register" className="text-white/70 hover:text-bubblegum transition-all duration-300 font-sans inline-block hover:translate-x-1 hover:drop-shadow-[0_0_8px_rgba(241,111,189,0.5)]">
-                  → Register
-                </a>
-              </li>
-              <li className="text-center md:text-left">
-                <a href="/schedule" className="text-white/70 hover:text-bubblegum transition-all duration-300 font-sans inline-block hover:translate-x-1 hover:drop-shadow-[0_0_8px_rgba(241,111,189,0.5)]">
-                  → Schedule
-                </a>
-              </li>
-              <li className="text-center md:text-left">
-                <a href="/data" className="text-white/70 hover:text-bubblegum transition-all duration-300 font-sans inline-block hover:translate-x-1 hover:drop-shadow-[0_0_8px_rgba(241,111,189,0.5)]">
-                  → Data
-                </a>
-              </li>
-              <li className="text-center md:text-left">
-                <a href="/faq" className="text-white/70 hover:text-bubblegum transition-all duration-300 font-sans inline-block hover:translate-x-1 hover:drop-shadow-[0_0_8px_rgba(241,111,189,0.5)]">
-                  → FAQ
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          {/* Column 3 - Balanced height */}
+          {/* Column 2 - Contact */}
           <div className="flex flex-col h-full">
             <h3 className="text-lg font-title font-semibold mb-4 text-dragonfruit h-7 flex items-center">Contact</h3>
             <div className="flex flex-col flex-grow space-y-4">
-              <p className="text-white/70 text-sm font-sans leading-relaxed">
+              <p className="text-white/80 text-base font-sans leading-loose tracking-wide">
                 Questions? Contact us at{' '}
                 <a href="mailto:qwang@wellesley.edu" className="text-bubblegum hover:text-bubblegum-light transition-all duration-300 font-semibold hover:drop-shadow-[0_0_8px_rgba(241,111,189,0.6)]">
                   qwang@wellesley.edu
                 </a>
               </p>
-              <p className="text-white/70 text-sm font-sans leading-relaxed">
+              <p className="text-white/80 text-base font-sans leading-loose tracking-wide">
                 BOW DataFest is sponsored by the American Statistical Association and supported by the BOW Presidential Innovation Grant.
               </p>
             </div>

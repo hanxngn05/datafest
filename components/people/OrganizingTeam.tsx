@@ -3,7 +3,6 @@ export default function OrganizingTeam() {
     {
       name: 'Qing (Wendy) Wang',
       role: 'Associate Professor of Mathematics, Wellesley College',
-      title: 'Team Leader',
     },
     {
       name: 'Cassandra Pattanayak',
@@ -44,10 +43,7 @@ export default function OrganizingTeam() {
           <div className="space-y-4">
             {faculty.map((person, index) => (
               <div key={index} className="bg-indigo/10 rounded-lg p-5 border-l-4 border-indigo">
-                <h4 className="font-semibold text-lg text-white">{person.name}</h4>
-                {person.title && (
-                  <p className="text-indigo font-medium text-sm mb-1">{person.title}</p>
-                )}
+                <h4 className="font-semibold text-lg text-white">Prof. {person.name}</h4>
                 <p className="text-white/80">{person.role}</p>
               </div>
             ))}
@@ -67,11 +63,6 @@ export default function OrganizingTeam() {
         </div>
       </div>
 
-      <div className="mt-8 bg-indigo/5 border-l-4 border-indigo p-6 rounded-lg">
-        <p className="text-white/80 leading-relaxed">
-          BOW DataFest 2026 represents an exciting evolution in our event model. For the first time, student leaders are playing a central role in planning and executing the competition. This collaboration between faculty and students across three colleges exemplifies the spirit of the BOW Three College Collaboration.
-        </p>
-      </div>
     </section>
   )
 }
