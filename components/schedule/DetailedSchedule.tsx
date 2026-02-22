@@ -3,29 +3,29 @@ export default function DetailedSchedule() {
     {
       day: 'Friday, April 10',
       events: [
-        { time: '5:00 PM - 6:00 PM', title: 'Opening ceremony in Science Center H-101', description: 'Welcome remarks, dataset reveal, and event overview' },
-        { time: '6:00 PM - 7:00 PM', title: 'Dinner at Lulu Dining Hall', description: '' },
-        { time: '7:00 PM - 12:00 AM', title: 'Begin exploring the dataset', description: 'Work in your assigned team space. Mentors available for consultation.' },
+        { time: 'TBD', title: 'Opening ceremony', description: 'Welcome remarks, dataset reveal, and event overview' },
+        { time: 'TBD', title: 'Dinner', description: '' },
+        { time: 'TBD', title: 'Begin exploring the dataset', description: 'Mentors available for consultation.' },
       ],
     },
     {
       day: 'Saturday, April 11',
       events: [
-        { time: '8:00 AM', title: 'Science Center opens for teams', description: '' },
-        { time: '8:00 AM - 9:00 AM', title: 'Breakfast available', description: '' },
-        { time: '9:00 AM - 6:00 PM', title: 'Data analysis continues', description: 'Mentors circulating throughout the day' },
-        { time: '12:00 PM - 1:00 PM', title: 'Lunch provided', description: '' },
-        { time: '6:00 PM - 7:00 PM', title: 'Celebratory dinner at Science Center Innovation Hub', description: '' },
-        { time: '7:00 PM - 11:59 PM', title: 'Finalize analysis and create presentation', description: 'Final 3-slide presentation must be submitted by midnight' },
+        { time: 'TBD', title: 'Venue opens for teams', description: '' },
+        { time: 'TBD', title: 'Breakfast available', description: '' },
+        { time: 'TBD', title: 'Data analysis continues', description: 'Mentors circulating throughout the day' },
+        { time: 'TBD', title: 'Lunch provided', description: '' },
+        { time: 'TBD', title: 'Celebratory dinner', description: '' },
+        { time: 'TBD', title: 'Finalize analysis and create presentation', description: 'Final 3-slide presentation must be submitted by midnight' },
       ],
     },
     {
       day: 'Sunday, April 12',
       events: [
-        { time: '8:00 AM - 9:00 AM', title: 'Breakfast and presentation practice', description: '' },
-        { time: '10:00 AM - 11:30 AM', title: 'Team presentations (5 minutes each)', description: 'Science Center H-101' },
-        { time: '11:30 AM - 12:30 PM', title: 'Judging deliberation and awards ceremony', description: '' },
-        { time: '12:30 PM - 1:30 PM', title: 'Closing lunch at Science Center Innovation Hub', description: '' },
+        { time: 'TBD', title: 'Breakfast and presentation practice', description: '' },
+        { time: 'TBD', title: 'Team presentations (5 minutes each)', description: '' },
+        { time: 'TBD', title: 'Judging deliberation and awards ceremony', description: '' },
+        { time: 'TBD', title: 'Closing lunch', description: '' },
       ],
     },
   ]

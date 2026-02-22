@@ -72,8 +72,8 @@ export default function PartnersSponsors() {
               {/* Glow effect on hover */}
               <div className={`absolute inset-0 opacity-0 group-hover:opacity-20 transition-opacity duration-300 ${partner.borderColor === 'border-indigo' ? 'bg-indigo' : partner.borderColor === 'border-bubblegum' ? 'bg-bubblegum' : 'bg-indigo'} blur-xl`}></div>
 
-              {/* Logo Container with Light Background */}
-              <div className="relative w-full h-36 mb-4 flex items-center justify-center bg-white/10 rounded-lg p-4 group-hover:bg-white/15 transition-all duration-300 z-10">
+              {/* Logo Container - white background for visibility of transparent logos */}
+              <div className="relative w-full h-36 mb-4 flex items-center justify-center bg-white rounded-lg p-4 group-hover:bg-gray-50 transition-colors duration-300 z-10">
                 {!imageErrors[index] ? (
                   <img
                     src={partner.logo}
@@ -82,12 +82,11 @@ export default function PartnersSponsors() {
                     style={{
                       maxWidth: '100%',
                       maxHeight: '120px',
-                      filter: 'brightness(1.2) contrast(1.1)',
                     }}
                     onError={() => handleImageError(index)}
                   />
                 ) : (
-                  <div className="text-white/40 text-xs font-sans">Logo unavailable</div>
+                  <div className="text-gray-400 text-xs font-sans">Logo unavailable</div>
                 )}
               </div>
               {/* Partner Name - Fixed height for alignment */}

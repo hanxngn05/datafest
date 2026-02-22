@@ -32,7 +32,7 @@ export default function OrganizingTeam() {
 
   return (
     <section className="bg-black border-2 border-indigo rounded-lg p-8 md:p-10">
-      <h2 className="text-3xl font-title font-bold mb-8 text-black">Organizing Team</h2>
+      <h2 className="text-3xl font-title font-bold mb-8 text-white">Organizing Team</h2>
 
       <div className="mb-6">
         <h3 className="text-xl font-title font-semibold mb-4 text-indigo">BOW DataFest Planning Committee</h3>
@@ -43,8 +43,8 @@ export default function OrganizingTeam() {
           <h3 className="text-2xl font-title font-semibold mb-4 text-indigo">Faculty Organizers</h3>
           <div className="space-y-4">
             {faculty.map((person, index) => (
-              <div key={index} className="bg-white rounded-lg p-5 border-l-4 border-indigo">
-                <h4 className="font-semibold text-lg text-black">{person.name}</h4>
+              <div key={index} className="bg-indigo/10 rounded-lg p-5 border-l-4 border-indigo">
+                <h4 className="font-semibold text-lg text-white">{person.name}</h4>
                 {person.title && (
                   <p className="text-indigo font-medium text-sm mb-1">{person.title}</p>
                 )}
@@ -58,8 +58,8 @@ export default function OrganizingTeam() {
           <h3 className="text-2xl font-title font-semibold mb-4 text-indigo">Student Organizers</h3>
           <div className="space-y-4">
             {students.map((person, index) => (
-              <div key={index} className="bg-white rounded-lg p-5 border-l-4 border-indigo">
-                <h4 className="font-semibold text-lg text-black">{person.name}</h4>
+              <div key={index} className="bg-indigo/10 rounded-lg p-5 border-l-4 border-indigo">
+                <h4 className="font-semibold text-lg text-white">{person.name}</h4>
                 <p className="text-white/80">{person.role}</p>
               </div>
             ))}

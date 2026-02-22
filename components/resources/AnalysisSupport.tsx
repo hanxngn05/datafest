@@ -1,7 +1,7 @@
 export default function AnalysisSupport() {
   return (
     <section className="bg-black border-2 border-indigo rounded-lg p-8 md:p-10">
-      <h2 className="text-3xl font-title font-bold mb-8 text-black">Analysis Support</h2>
+      <h2 className="text-3xl font-title font-bold mb-8 text-white">Analysis Support</h2>
 
       <div className="space-y-8">
         <div>

@@ -1,7 +1,7 @@
 export default function DatasetAccess() {
   return (
     <section className="bg-black border-2 border-indigo rounded-lg p-8 md:p-10">
-      <h2 className="text-3xl font-title font-bold mb-8 text-black">Dataset Access</h2>
+      <h2 className="text-3xl font-title font-bold mb-8 text-white">Dataset Access</h2>
 
       <div className="space-y-6">
         <div>

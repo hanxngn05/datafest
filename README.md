@@ -75,6 +75,51 @@ npm run build
 npm start
 ```
 
+## Deploy on Vercel
+
+### Option 1: Deploy with Vercel CLI
+
+1. Install the Vercel CLI (if you haven't already):
+   ```bash
+   npm i -g vercel
+   ```
+
+2. From the project root, run:
+   ```bash
+   vercel
+   ```
+
+3. Follow the prompts:
+   - Link to existing project? **N** (for first deploy)
+   - Project name: **bow-datafest-2026** (or your choice)
+   - Directory: **./** (press Enter)
+   - Override settings? **N**
+
+4. For production deployment:
+   ```bash
+   vercel --prod
+   ```
+
+### Option 2: Deploy via GitHub + Vercel Dashboard
+
+1. Push your code to GitHub (e.g. `hanxngn05/datafest`).
+
+2. Go to [vercel.com](https://vercel.com) and sign in with GitHub.
+
+3. Click **Add New** → **Project** and import your repository.
+
+4. Configure the project:
+   - **Framework Preset**: Next.js (auto-detected)
+   - **Root Directory**: `./`
+   - **Build Command**: `npm run build` (default)
+   - **Output Directory**: `.next` (default)
+
+5. Click **Deploy**. Vercel will build and deploy your site. Future pushes to the main branch will trigger automatic deployments.
+
+### Environment Variables
+
+If your project uses environment variables (e.g. API keys), add them in **Project Settings** → **Environment Variables** in the Vercel dashboard.
+
 ## Technologies Used
 
 - **Next.js 14**: React framework with App Router

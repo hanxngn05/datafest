@@ -51,8 +51,8 @@ export default function Hero() {
           {/* Subheading */}
           <div className="mb-12">
             <h2 className="text-2xl md:text-3xl font-title text-bubblegum mb-8 uppercase tracking-wider relative inline-block">
-              <span className="relative z-10">THE DATES AND STUFF</span>
-              <span className="absolute inset-0 blur-lg opacity-50 text-bubblegum animate-pulse">THE DATES AND STUFF</span>
+              <span className="relative z-10">One dataset. One weekend. Real decisions.</span>
+              <span className="absolute inset-0 blur-lg opacity-50 text-bubblegum animate-pulse">One dataset. One weekend. Real decisions.</span>
             </h2>
           </div>
 

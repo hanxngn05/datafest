@@ -1,5 +1,4 @@
 import ParticipantRegistration from '@/components/register/ParticipantRegistration'
-import MentorJudgeSponsorRegistration from '@/components/register/MentorJudgeSponsorRegistration'
 
 export default function Register() {
   return (
@@ -9,9 +8,6 @@ export default function Register() {
         <div className="space-y-16">
           <div id="participant">
             <ParticipantRegistration />
-          </div>
-          <div id="mentor">
-            <MentorJudgeSponsorRegistration />
           </div>
         </div>
       </div>

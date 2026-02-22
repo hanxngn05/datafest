@@ -1,7 +1,7 @@
 export default function Guides() {
   return (
     <section className="bg-black border-2 border-indigo rounded-lg p-8 md:p-10">
-      <h2 className="text-3xl font-title font-bold mb-6 text-black">Guides</h2>
+      <h2 className="text-3xl font-title font-bold mb-6 text-white">Guides</h2>
 
       <div className="space-y-6">
         <div>
@@ -26,20 +26,6 @@ export default function Guides() {
           </div>
         </div>
 
-        <div>
-          <h3 className="text-2xl font-title font-semibold mb-4 text-indigo">Technical Resources</h3>
-          <div className="grid md:grid-cols-3 gap-4">
-            <div className="bg-white rounded-lg p-6 border-2 border-black text-center">
-              <p className="text-white/40 font-sans">[Placeholder]</p>
-            </div>
-            <div className="bg-white rounded-lg p-6 border-2 border-black text-center">
-              <p className="text-white/40 font-sans">[Placeholder]</p>
-            </div>
-            <div className="bg-white rounded-lg p-6 border-2 border-black text-center">
-              <p className="text-white/40 font-sans">[Placeholder]</p>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   )

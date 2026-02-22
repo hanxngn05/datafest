@@ -24,16 +24,16 @@ export default function KeyInfoSnapshot() {
               <h3 className="text-xl font-title font-semibold mb-4 text-indigo uppercase h-12 flex items-center">Timeline</h3>
               <ul className="space-y-3 text-white/80 font-sans flex-grow">
                 <li className="leading-relaxed">
-                  <span className="font-semibold font-title text-indigo">February 23 - March 13:</span> Registration open
+                  <span className="font-semibold font-title text-indigo">February 27 - March 29:</span> Registration open
                 </li>
                 <li className="leading-relaxed">
-                  <span className="font-semibold font-title text-indigo">Friday, April 10 (5:00 PM):</span> Opening ceremony and dataset reveal
+                  <span className="font-semibold font-title text-indigo">Friday, April 10 (TBD):</span> Opening ceremony and dataset reveal
                 </li>
                 <li className="leading-relaxed">
                   <span className="font-semibold font-title text-indigo">Saturday, April 11:</span> Full day of analysis and collaboration
                 </li>
                 <li className="leading-relaxed">
-                  <span className="font-semibold font-title text-indigo">Sunday, April 12 (10:00 AM):</span> Team presentations and awards
+                  <span className="font-semibold font-title text-indigo">Sunday, April 12 (TBD):</span> Team presentations and awards
                 </li>
               </ul>
             </div>

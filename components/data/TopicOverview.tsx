@@ -1,7 +1,7 @@
 export default function TopicOverview() {
   return (
     <section className="bg-black border-2 border-indigo rounded-lg p-8 md:p-10">
-      <h2 className="text-3xl font-title font-bold mb-6 text-black">Topic Overview</h2>
+      <h2 className="text-3xl font-title font-bold mb-6 text-white">Topic Overview</h2>
 
       <div>
         <h3 className="text-2xl font-title font-semibold mb-4 text-indigo">The Challenge</h3>
