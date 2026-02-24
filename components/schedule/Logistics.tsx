@@ -49,7 +49,7 @@ export default function Logistics() {
               <div>
                 <span className="font-title font-semibold text-white">Meals:</span>{' '}
                 <span className="text-white/80 font-sans">
-                  Lulu Dining Hall (Friday dinner, Saturday lunch) and Science Center Innovation Hub (Saturday Breakfast, Saturday dinner, Sunday brunch)
+                  Lulu Dining Hall (Saturday lunch) and Science Center Innovation Hub (Saturday breakfast, Saturday dinner, Sunday brunch)
                 </span>
               </div>
             </div>

@@ -35,7 +35,7 @@ export default function ParticipantRegistration() {
           </li>
           <li className="flex items-start">
             <span className="text-indigo mr-2 font-mono">•</span>
-            <span><strong className="font-mono">Registration: February 27 (Friday) – March 29 (Sunday), 2026</strong></span>
+            <span><strong className="font-mono">Registration: February 27 – March 29</strong></span>
           </li>
         </ul>
       </div>

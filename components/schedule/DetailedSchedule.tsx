@@ -4,7 +4,6 @@ export default function DetailedSchedule() {
       day: 'Friday, April 10',
       events: [
         { time: '7:00 PM - 8:00 PM', title: 'Opening ceremony', description: 'Welcome remarks, dataset reveal, and event overview' },
-        { time: 'TBD', title: 'Dinner', description: '' },
         { time: 'TBD', title: 'Begin exploring the dataset', description: 'Mentors available for consultation.' },
       ],
     },

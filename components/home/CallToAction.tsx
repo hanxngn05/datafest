@@ -23,7 +23,7 @@ export default function CallToAction() {
                 Ready to compete?
               </h2>
               <p className="text-white/70 mb-6 font-sans">
-                Registration: February 27 (Friday) – March 29 (Sunday), 2026.
+                Registration: February 27 – March 29.
               </p>
               <Link
                 href="/register#participant"

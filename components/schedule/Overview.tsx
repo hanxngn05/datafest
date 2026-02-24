@@ -24,7 +24,7 @@ export default function Overview() {
           <h3 className="text-2xl font-title font-semibold mb-4 text-white">Important Deadlines</h3>
           <ul className="space-y-3 text-white/90 font-sans">
             <li className="flex items-start">
-              <span className="font-title font-semibold text-indigo mr-3 min-w-[200px]">February 27 (Friday) – March 29 (Sunday), 2026:</span>
+              <span className="font-title font-semibold text-indigo mr-3 min-w-[140px]">February 27 – March 29:</span>
               <span>Registration open</span>
             </li>
             <li className="flex items-start">
