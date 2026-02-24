@@ -3,7 +3,7 @@ export default function DetailedSchedule() {
     {
       day: 'Friday, April 10',
       events: [
-        { time: 'TBD', title: 'Opening ceremony', description: 'Welcome remarks, dataset reveal, and event overview' },
+        { time: '7:00 PM - 8:00 PM', title: 'Opening ceremony', description: 'Welcome remarks, dataset reveal, and event overview' },
         { time: 'TBD', title: 'Dinner', description: '' },
         { time: 'TBD', title: 'Begin exploring the dataset', description: 'Mentors available for consultation.' },
       ],
@@ -16,15 +16,15 @@ export default function DetailedSchedule() {
         { time: 'TBD', title: 'Data analysis continues', description: 'Mentors circulating throughout the day' },
         { time: 'TBD', title: 'Lunch provided', description: '' },
         { time: 'TBD', title: 'Celebratory dinner', description: '' },
-        { time: 'TBD', title: 'Finalize analysis and create presentation', description: 'Final 3-slide presentation must be submitted by midnight' },
+        { time: 'TBD', title: 'Finalize analysis and create presentation', description: '' },
       ],
     },
     {
       day: 'Sunday, April 12',
       events: [
         { time: 'TBD', title: 'Breakfast and presentation practice', description: '' },
-        { time: 'TBD', title: 'Team presentations (5 minutes each)', description: '' },
-        { time: 'TBD', title: 'Judging deliberation and awards ceremony', description: '' },
+        { time: 'TBD', title: 'Presentations and judging', description: '5 minute video followed by live questions for each team' },
+        { time: 'TBD', title: 'Awards ceremony', description: '' },
         { time: 'TBD', title: 'Closing lunch', description: '' },
       ],
     },

@@ -53,11 +53,11 @@ export default function FAQ() {
         },
         {
           q: 'What should our presentation include?',
-          a: 'Your 3-slide, 5-minute video presentation should clearly communicate your research question, analytical approach, key findings, and real-world implications. Judges will evaluate presentations on clarity, methodology, creativity, and insight.',
+          a: 'Your 5-minute video presentation should clearly communicate your research question, analytical approach, key findings, and real-world implications. Each team will then answer live questions from the judges. Judges will evaluate presentations on clarity, methodology, creativity, and insight.',
         },
         {
           q: 'How will presentations be submitted?',
-          a: 'Detailed submission instructions will be provided during the opening ceremony. Presentations must be submitted by 11:59 PM on Saturday, April 11.',
+          a: 'Detailed submission instructions and format (e.g., slides, video) will be provided during the opening ceremony.',
         },
       ],
     },
@@ -74,7 +74,7 @@ export default function FAQ() {
         },
         {
           q: 'Can I work overnight?',
-          a: 'The Science Center is open until midnight on Friday and Saturday. Teams may not work on analysis after midnight on Saturday, as final presentations must be submitted by 11:59 PM.',
+          a: 'The Science Center is open until midnight on Friday and Saturday.',
         },
         {
           q: 'What should I bring?',

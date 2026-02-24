@@ -17,7 +17,7 @@ export default function MentorsJudges() {
         <div>
           <h3 className="text-2xl font-title font-semibold mb-4 text-indigo">Judges</h3>
           <p className="text-lg text-white/80 leading-relaxed mb-4">
-            Our panel of three judges includes accomplished alumni from Babson, Olin, and Wellesley working in data science, analytics, and related fields. Judges will evaluate all final presentations and select winners across multiple award categories.
+            Our panel of three external judges will evaluate all final presentations. Each team presents a 5-minute video followed by live questions from the judges. Winners will be selected across multiple award categories.
           </p>
           <p className="text-white/60">
             Judge profiles will be posted in March 2026.

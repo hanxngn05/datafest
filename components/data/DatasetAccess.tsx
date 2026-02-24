@@ -7,7 +7,7 @@ export default function DatasetAccess() {
         <div>
           <h3 className="text-2xl font-title font-semibold mb-4 text-indigo">Receiving the Data</h3>
           <p className="text-lg text-white/80 leading-relaxed">
-            All registered teams will receive access to the dataset during the opening ceremony on Friday, April 10. The data will be distributed via USB drives or a secure download link.
+            All registered teams will receive access to the dataset during the opening ceremony on Friday, April 10 at 7:00 PM. The data will be distributed via USB drives or a secure download link.
           </p>
         </div>
 

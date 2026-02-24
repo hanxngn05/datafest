@@ -18,6 +18,21 @@ export default function RulesSubmission() {
             </div>
 
             <div className="bg-indigo/10 border-2 border-indigo rounded-lg p-5">
+              <h4 className="font-semibold text-lg mb-2 text-white">Attendance & competition hours:</h4>
+              <p className="text-white/80">While as many of your team members as possible should be present at the introduction at 6:15 PM on Friday, you do not have to be present for the entire duration of the competition. Team members can come and go as you please, but all work has to be done during the competition hours (i.e., no all-nighters!).</p>
+            </div>
+
+            <div className="bg-indigo/10 border-2 border-indigo rounded-lg p-5">
+              <h4 className="font-semibold text-lg mb-2 text-white">Friendly competition & support:</h4>
+              <p className="text-white/80">This is a friendly competition. We encourage you to collaborate and help out other teams when they encounter issues you know how to solve. There will be a Slack channel to post questions, and faculty and mentors will also be available throughout the weekend to attempt to answer questions you might have.</p>
+            </div>
+
+            <div className="bg-indigo/10 border-2 border-indigo rounded-lg p-5">
+              <h4 className="font-semibold text-lg mb-2 text-white">Software:</h4>
+              <p className="text-white/80">There are no limitations on what software you use.</p>
+            </div>
+
+            <div className="bg-indigo/10 border-2 border-indigo rounded-lg p-5">
               <h4 className="font-semibold text-lg mb-2 text-white">External resources allowed:</h4>
               <p className="text-white/80">You may use any software, libraries, online documentation, or reference materials. However, you may not consult with people outside the event (family, friends, professors not serving as mentors).</p>
             </div>
@@ -29,7 +44,7 @@ export default function RulesSubmission() {
 
             <div className="bg-indigo/10 border-2 border-indigo rounded-lg p-5">
               <h4 className="font-semibold text-lg mb-2 text-white">Presentation format:</h4>
-              <p className="text-white/80">Each team must create a presentation with a 5-minute video recording. Slides must be submitted by 11:59 PM on Saturday, April 11.</p>
+              <p className="text-white/80">Each team must prepare a 5-minute video presentation, followed by live questions from the judges. Submission details will be confirmed and communicated during the opening ceremony.</p>
             </div>
 
             <div className="bg-indigo/10 border-2 border-indigo rounded-lg p-5">

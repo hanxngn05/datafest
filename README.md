@@ -8,8 +8,8 @@ A modern, responsive website for the BOW ASA DataFest 2026 event, built with Nex
 - **Register Page**: Participant and Mentor/Judge/Sponsor registration sections
 - **Schedule Page**: Overview, detailed schedule, and logistics information
 - **Data Page**: Topic overview, dataset access information, and rules & submission guidelines
-- **Resources Page**: Workshops, guides, and analysis support
-- **People Page**: Guests/speakers, mentors & judges, and organizing team
+- **Resources Page**: Guides and analysis support
+- **People Page**: Mentors & judges, and organizing team
 - **FAQ Page**: Comprehensive FAQ with collapsible sections
 
 ## Getting Started

@@ -1,3 +1,6 @@
+// Set to true when venue details are confirmed
+const SHOW_VENUE = false
+
 export default function Logistics() {
   return (
     <section className="bg-black border-2 border-indigo rounded-lg p-8 md:p-10 relative overflow-hidden">
@@ -31,6 +34,7 @@ export default function Logistics() {
             </p>
           </div>
 
+          {SHOW_VENUE && (
           <div>
             <h3 className="text-2xl font-title font-semibold mb-4 text-indigo">Venue Details</h3>
             <p className="text-white/80 leading-relaxed mb-4 font-sans">
@@ -50,6 +54,7 @@ export default function Logistics() {
               </div>
             </div>
           </div>
+          )}
         </div>
       </div>
     </section>

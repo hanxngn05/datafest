@@ -22,13 +22,11 @@ export default function Navigation() {
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
             <Link href="/" className="flex items-center gap-2 group">
-              <div className="bg-white/90 rounded-lg px-2 py-1.5 flex items-center justify-center group-hover:bg-white transition-colors duration-300">
-                <img
-                  src="/bow-asa.png"
-                  alt="BOW DATA FEST 2026"
-                  className="h-8 w-auto object-contain"
-                />
-              </div>
+              <img
+                src="/bow-asa.png"
+                alt="BOW DATA FEST 2026"
+                className="h-10 w-auto object-contain"
+              />
             </Link>
           </div>
 

@@ -64,6 +64,9 @@ export default function Hero() {
             <p className="text-base md:text-lg font-sans leading-relaxed text-white/80">
               This is your chance to apply your skills beyond the classroom, collaborate with peers across three campuses, and compete for recognition in categories like Best in Show, Best <span className="text-bubblegum font-semibold">Visualization</span>, and Best Use of External Data.
             </p>
+            <p className="text-base md:text-lg font-sans leading-relaxed text-white/80">
+              DataFest is taking place at over 40 locations around the US, Canada, and Germany, with more than 75 colleges and universities participating. Winning contributions from BOW and other locations will be publicized together on the American Statistical Association&apos;s national website.
+            </p>
           </div>
         </div>
       </div>

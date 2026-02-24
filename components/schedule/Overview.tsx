@@ -24,24 +24,16 @@ export default function Overview() {
           <h3 className="text-2xl font-title font-semibold mb-4 text-white">Important Deadlines</h3>
           <ul className="space-y-3 text-white/90 font-sans">
             <li className="flex items-start">
-              <span className="font-title font-semibold text-indigo mr-3 min-w-[140px]">February 23:</span>
-              <span>Registration opens</span>
+              <span className="font-title font-semibold text-indigo mr-3 min-w-[200px]">February 27 (Friday) – March 29 (Sunday), 2026:</span>
+              <span>Registration open</span>
             </li>
             <li className="flex items-start">
-              <span className="font-title font-semibold text-indigo mr-3 min-w-[140px]">March 13:</span>
-              <span>Registration closes</span>
-            </li>
-            <li className="flex items-start">
-              <span className="font-title font-semibold text-indigo mr-3 min-w-[140px]">April 10, 5:00 PM:</span>
+              <span className="font-title font-semibold text-indigo mr-3 min-w-[140px]">April 10, 7:00 PM:</span>
               <span>Opening ceremony (attendance required)</span>
             </li>
             <li className="flex items-start">
-              <span className="font-title font-semibold text-indigo mr-3 min-w-[140px]">April 11, 11:59 PM:</span>
-              <span>Final presentation slides due</span>
-            </li>
-            <li className="flex items-start">
               <span className="font-title font-semibold text-indigo mr-3 min-w-[140px]">April 12, 10:00 AM:</span>
-              <span>Team presentations begin</span>
+              <span>Presentations and judging (5 minute video followed by live questions for each team)</span>
             </li>
           </ul>
         </div>
