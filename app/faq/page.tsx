@@ -71,8 +71,15 @@ export default function FAQ() {
           a: 'Limited parking is available at Wellesley College. Detailed parking instructions will be sent to registered participants in early April. We encourage students to use the BOW shuttle service when possible.',
         },
         {
-          q: 'Will there be shuttle service between campuses?',
-          a: 'Yes, additional BOW shuttle runs will be scheduled at the beginning and end of each day. Exact times and pickup locations will be shared with registered participants by April 1.',
+          q: 'What transportation is available between campuses?',
+          a: (
+            <>
+              <p className="mb-3">BOW shuttle service will run their regular schedule on Friday and Saturday between Babson, Olin, and Wellesley. Exact pickup times and locations are available on this website:{' '}
+                <a href={shuttleScheduleUrl} target="_blank" rel="noopener noreferrer" className="text-bubblegum hover:text-bubblegum-light underline">Wellesley shuttle bus schedule</a>.
+              </p>
+              <p>Outside of the BOW shuttle schedule, group Ubers will be available to commute students to and from Wellesley College.</p>
+            </>
+          ),
         },
         {
           q: 'Can I work overnight?',
