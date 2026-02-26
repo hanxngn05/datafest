@@ -38,18 +38,18 @@ export default function Logistics() {
           <div>
             <h3 className="text-2xl font-title font-semibold mb-4 text-indigo">Venue Details</h3>
             <p className="text-white/80 leading-relaxed mb-4 font-sans">
-              All DataFest activities take place in the Wellesley College Science Center, located at{' '}
+              All DataFest activities take place at Wellesley College, located at{' '}
               <strong className="text-bubblegum">106 Central Street, Wellesley, MA 02481</strong>.
             </p>
             <div className="bg-indigo/10 border-2 border-indigo rounded-lg p-6 space-y-3">
               <div>
                 <span className="font-title font-semibold text-white">Team workspaces:</span>{' '}
-                <span className="text-white/80 font-sans">Assigned rooms on the H-floor of the Science Center</span>
+                <span className="text-white/80 font-sans">Assigned rooms at the venue</span>
               </div>
               <div>
                 <span className="font-title font-semibold text-white">Meals:</span>{' '}
                 <span className="text-white/80 font-sans">
-                  Lulu Dining Hall (Saturday lunch) and Science Center Innovation Hub (Saturday breakfast, Saturday dinner, Sunday brunch)
+                  Lulu Dining Hall (Saturday lunch) and venue (Saturday breakfast, Saturday dinner, Sunday brunch)
                 </span>
               </div>
             </div>

@@ -1,5 +1,7 @@
 import FAQSection from '@/components/faq/FAQSection'
 
+const shuttleScheduleUrl = 'https://www.wellesley.edu/about-us/offices-departments/transportation/shuttle-bus-schedule'
+
 export default function FAQ() {
   const faqSections = [
     {
@@ -74,7 +76,7 @@ export default function FAQ() {
         },
         {
           q: 'Can I work overnight?',
-          a: 'The Science Center is open until midnight on Friday and Saturday.',
+          a: 'The venue is open until midnight on Friday and Saturday.',
         },
         {
           q: 'What should I bring?',
@@ -91,7 +93,7 @@ export default function FAQ() {
       questions: [
         {
           q: 'Have questions?',
-          a: 'BOW DataFest is sponsored by the American Statistical Association and supported by the BOW Presidential Innovation Grant. For questions, contact qwang@wellesley.edu',
+          a: 'BOW DataFest is sponsored by the American Statistical Association and supported by the BOW Three College Collaboration. For questions, contact qwang@wellesley.edu',
         },
       ],
     },

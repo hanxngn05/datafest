@@ -33,7 +33,7 @@ export default function Footer() {
                 </a>
               </p>
               <p className="text-white/80 text-base font-sans leading-loose tracking-wide">
-                BOW DataFest is sponsored by the American Statistical Association and supported by the BOW Presidential Innovation Grant.
+                BOW DataFest is sponsored by the American Statistical Association and supported by the BOW Three College Collaboration.
               </p>
             </div>
           </div>

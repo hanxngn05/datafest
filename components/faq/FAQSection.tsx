@@ -1,10 +1,10 @@
 'use client'
 
-import { useState } from 'react'
+import React, { useState } from 'react'
 
 interface Question {
   q: string
-  a: string
+  a: string | React.ReactNode
 }
 
 interface FAQSectionProps {
